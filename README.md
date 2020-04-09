@@ -1,4 +1,4 @@
-# test
+# word-keeper
 
 ## Project setup
 ```
