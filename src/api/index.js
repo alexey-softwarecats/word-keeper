@@ -1,7 +1,7 @@
 const API_ENDPOINT = 'https://wordsapiv1.p.rapidapi.com/';
 const API_HOST = 'wordsapiv1.p.rapidapi.com';
 const API_KEY = 'aef113f840mshafcd5b2684feb08p1fdf0djsn57a65eabc913';
-const SEARCH_LIST_LIMIT = 3;
+const SEARCH_LIST_LIMIT = 10;
 
 const axios = require('axios');
 const http = axios.create({
