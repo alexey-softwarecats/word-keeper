@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94fa9513-ad84-4107-a9b3-bbd93db5adba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/app.76f85609.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/starred.65920c04.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/search-icon.82710378.svg" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/app.f3c3f0f2.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/app.66a248ed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/app.66a248ed.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/chunk-vendors.d07d8621.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/chunk-vendors.d07d8621.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/starred.234c3f97.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/starred.234c3f97.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.1c77c1b7.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.f3c3f0f2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.1c77c1b7.js.map" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -74,7 +68,6 @@
         <option value="$PROJECT_DIR$/.eslintrc.js" />
         <option value="$PROJECT_DIR$/src/components/searchListItem.vue" />
         <option value="$PROJECT_DIR$/src/components/Search.vue" />
-        <option value="$PROJECT_DIR$/src/router/index.js" />
         <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/SearchListItem.vue" />
@@ -89,6 +82,7 @@
         <option value="$PROJECT_DIR$/src/api/index.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/deploy.sh" />
+        <option value="$PROJECT_DIR$/src/router/index.js" />
       </list>
     </option>
   </component>
@@ -127,15 +121,15 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.3.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\projects\word-keeper" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\projects\word-keeper" />
       <recent name="C:\projects\word-keeper\src\components" />
       <recent name="C:\projects\word-keeper\src\views" />
       <recent name="C:\projects\word-keeper\src" />
       <recent name="C:\projects\word-keeper\src\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\word-keeper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -205,7 +199,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52003000" />
+    <option name="totallyTimeSpent" value="52305000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
