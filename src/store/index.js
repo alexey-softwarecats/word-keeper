@@ -52,6 +52,10 @@ export default new Vuex.Store({
     fetchStarredWords({ commit }) {
       const list = JSON.parse(localStorage.getItem(STARRED_KEY));
       commit('updateStarredWords', list);
+      commit('updateStarredFilter', {
+        query: '',
+        speechParts: []
+      });
     },
     starWord({ commit, state }, wordData) {
       commit('starWord', wordData);
