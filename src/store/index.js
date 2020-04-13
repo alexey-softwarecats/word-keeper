@@ -23,19 +23,22 @@ export default new Vuex.Store({
 
       if (query) {
         const searchData = await getSearchedList(query);
-        const searchedWords = searchData.results.data || [];
+        const searchedWords = Array.isArray(searchData.results.data) ? searchData.results.data : [];
+        const searchedWordsDetails = await Promise.all(
+          searchedWords.map(async(item) => await getWordDetails(item))
+        );
 
-        const wordsDetails = searchedWords.map(async(item) => {
-          const wordData = await getWordDetails(item);
-          const firstResult = wordData.results && wordData.results[0];
+        searchedList = searchedWordsDetails
+          .filter(item => item.results && item.results.length)
+          .map(item => {
+            const firstResult = item.results[0] || {};
 
-          return {
-            title: wordData.word,
-            description: firstResult.definition,
-            speechPart: firstResult.partOfSpeech
-          };
-        });
-        searchedList = await Promise.all(wordsDetails);
+            return {
+              title: item.word,
+              description: firstResult.definition,
+              speechPart: firstResult.partOfSpeech
+            };
+          });
       }
 
       commit('updateSearchedList', searchedList);
